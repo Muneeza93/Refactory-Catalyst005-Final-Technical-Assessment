@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covi-19 || Registration form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    
+</head>
+<body>
+ <form action=""  method="POST" class="" name="coronavirus">
+    <div class="container" >
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="img/uganda-flag-part.png" alt="" width="100%" height="50%">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/uganda-coat_of_arms.png" alt="" width="50%" height="100%">
+            </div>
+            
+            <div class="col-lg-4">
+                <img src="img/uganda-flag-part.png" alt="" width="100%" height="50%">
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="header">
+        <h6>
+            Ministry of Health
+        </h6>
+    </div>
+    <div class="header">
+        <h3>
+        COVID(CORONA VIRUS)
+        </h3>
+    </div>
+    <div class="header">
+        <h6>
+       Virus-Test Registration Form
+        </h6>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="Surname">Surname</label>
+            <input type="text" name="surname" id="surname" placeholder="surname">
+            <div class="error" id="nameErr"></div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Given name">Given Name</label>
+            <input type="text" name="givenname" id="givenname" placeholder="Given name">
+            <div class="error" id="givenErr"></div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Date of Birth">Date of birth</label>
+            <input type="date" name="dateofBirth" id="dateofBirth" placeholder="Date of Birth">
+            <div class="error" id="birthErr"></div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Place of residence">Place of Residence</label>
+            <input type="text" name="residence" id="residence" placeholder="Place of residence">
+            <div class="error" id="residenceErr"></div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Occupation">Occupation</label>
+            <input type="text" name="occupation" id="occupation" placeholder="occupation">
+            <div class="error" id="occupationErr"></div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="Gender">Gender</label>
+            <input type="radio" name="gender" id="gender" value="gender">Male
+            <input type="radio" name="gender" id="gender" value="gender">Female
+            <div class="error" id="genderErr"></div>
+        </div>
+        <div class="form-group col-md-12">
+            <select name="Category" id="category">
+                <option selected>Choose...</option>
+                <option>Returnee</option>
+                <option>Contact</option>
+                <option>Alert</option>
+                <option>Volunteer</option>
+            </select>
+            <div class="error" id="categoryErr"></div>
+        </div>
+        <button type="Submit" btn btn-primary>Register</button>
+    </div>
+       
+ </form>
+ <script src="bootstrap/js/jquery-3.5.1.min.js"></script>
+ <script src="bootstrap/js/popper.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
